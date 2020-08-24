@@ -11,8 +11,9 @@ sudo snap install postman
 echo "Install Curl"
 sudo yes | apt install curl
 
-echo "Installing Docker via Snap"
-sudo snap install docker 
+echo "Installing Docker via apt"
+sudo yes | apt install docker.io
+sudo yes | apt install docker-compose
 
 echo "Installing Git via apt"
 yes | sudo apt install git
