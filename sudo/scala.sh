@@ -12,3 +12,5 @@ sudo apt-get install sbt
 
 echo "Installing scala"
 sudo yes | apt install scala
+
+sudo snap install intellij-idea-community --classic
